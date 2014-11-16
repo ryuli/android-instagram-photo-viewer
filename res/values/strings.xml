@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Popular Photos</string>
+    <string name="load_data_hint">Loading data ...</string>
+    <string name="btn_lable_ok">OK</string>
+    <string name="alert_dialog_title">Information</string>
+    <string name="fail_to_load_photo">Fail to load photo, please try again.</string>
+    <string name="photo">Photo</string>
+    <string name="comment">comment</string>
+    <string name="username">Username</string>
+    <string name="clock">clock</string>
+    <string name="elapsed_time">elapse time</string>
+    <string name="likes">likes</string>
+    <string name="zero">0</string>
+    <string name="chat">chat</string>
+    <string name="user_comment">user comment</string>
+    <string name="view_all_of">View all of</string>
+    <string name="comments">comments</string>
+    <string name="title_activity_view_all_comment">ViewAllCommentActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

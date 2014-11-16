@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ivCommentUserImage"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/human2_gray"
+        app:border="false" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/ivCommentUserImage"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvCommentUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="#0174DF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvCommentElapsedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/elapsed_time"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/tvCommentElapsedTime"
+            android:contentDescription="@string/clock"
+            android:src="@drawable/clock" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvUserComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:text="@string/comment"
+        android:textSize="12sp" />
+
+</RelativeLayout>
